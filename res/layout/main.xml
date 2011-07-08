@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+    <TableLayout android:id="@+id/tableLayout1" xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bg_flora" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView 
+	        android:id="@+id/clicktimes" 
+	        android:text="TextView" 
+        	android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+         	android:textSize="40sp"
+         	></TextView>
+
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1" android:src="@drawable/graph1"></ImageView>
+        <TextView 
+        	android:id="@+id/timer" 
+        	android:text="TextView" 
+        	android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+         	android:textSize="40sp" 
+         	></TextView>
+    </TableLayout>
